@@ -4,16 +4,27 @@ h1, h2, h3, h4, h5, h6{
 a:hover{
     color: darkcyan;
 }
-a{
-
-    color: rgb(182, 97, 12);
-}
-formulariocontacto{
-    text-align: center;
-    
-
-}
+/* unvisited link */
+a:link {
+    color: chocolate;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: darkcyan;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: darkgray;
+  }
+  
+  /* selected link */
+  a:active {
+    color: crimson;
+  }
 p{
-    font-size: 14px;
-    color: aquamarine;
+    font-size: 20px;
+    color: black;
+
 }
