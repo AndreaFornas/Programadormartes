@@ -1,5 +1,5 @@
 h1, h2, h3, h4, h5, h6{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria;
 }
 a:hover{
     color: darkcyan;
@@ -13,7 +13,11 @@ formulariocontacto{
     
 
 }
+a{
+
+
+}
 p{
     font-size: 14px;
-    color: aquamarine;
+    color: darkslategray;
 }
