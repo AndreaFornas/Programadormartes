@@ -1,5 +1,10 @@
-h1, h2, h3, h4, h5, h6{
+h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+    background-color: whitesmoke;
+    
+    
+    
 }
 a:hover{
     color: darkcyan;
@@ -21,10 +26,49 @@ a:link {
   
   /* selected link */
   a:active {
-    color: crimson;
+    color: rgb(135, 132, 132);
   }
 p{
     font-size: 20px;
     color: black;
 
 }
+#caja0{
+    position: relative;  
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: aquamarine;
+    height: 700px;
+    
+}
+#caja1{
+    position: static;
+    
+    
+    background-color: #ba5c15;
+    color: antiquewhite;
+    height: 200px;
+    
+    
+}
+#caja2{
+    position: absolute;
+    margin-top: 0;
+    margin-left: 0;
+    height: 200px;
+    background-color: #3ca039;
+    color: antiquewhite;
+   
+
+}
+#caja3{
+    
+    top: 0;
+    left: 0;
+    background-color: #85366e;
+    color: antiquewhite;
+    height: 200px;
+    
+
+}
+
