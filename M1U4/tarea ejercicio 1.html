@@ -6,19 +6,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="tarea ejercicio 1.css">
 </head>
 
 <body>
-    <h1>Contador de caracteres para un textarea:</h1>
-    <textarea name="message" rows="10" cols="100" onkeyup="countChars(this);"></textarea>
-    <p id="numeroCaracteres">0 caracteres</p>
+    
+    <div id="rojo">
 
+    </div>
+    <div id="azul">
+
+    </div>
+    <div id="verde">
+
+    </div>
     <script>
+        const rojo = document.getElementById('rojo');
 
-        function countChars(obj) {
-            document.getElementById("numeroCaracteres").innerHTML = obj.value.length + ' caracteres';
-        }
+        const azul = document.getElementById('azul');
 
+        const verde = document.getElementById('verde');
+
+        const fondo = document.querySelector('body')
+
+
+        //console.log(fondo)
+
+
+        rojo.addEventListener('click', function () {
+
+            fondo.style.backgroundColor = 'red';
+
+        })
+
+
+        azul.addEventListener('click', function () {
+
+            fondo.style.backgroundColor = 'blue';
+
+        })
+
+        verde.addEventListener('click', function () {
+
+            fondo.style.backgroundColor = 'green';
+
+        })
 
 
     </script>
