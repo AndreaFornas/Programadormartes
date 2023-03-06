@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const numeros = [12, 28, 67, 1, 156, 5698, 68941,1];
+
+        document.write(`Los numeros del array son: ${numeros} <br><br>`);
+
+        let mayor = 0;
+
+        for (let i = 0; i < numeros.length; i++) {
+            if (numeros[i] > mayor) {
+
+                mayor = numeros[i];
+            }
+
+        }
+
+        document.write(`El numero mayor del array es ${mayor}`);
+
+        
+
+    </script>
+</body>
+
+</html>
