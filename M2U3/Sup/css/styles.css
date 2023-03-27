@@ -63,9 +63,22 @@ div.imagenesportada {
 
     justify-content: space-between;
     margin: 10px;
+    
+    overflow: hidden;
+    cursor: pointer;
 
 }
 
+.imagenesportada img{
+    /* filter: grayscale(.4); */
+    transition: 3s;
+}
+
+.imagenesportada img:hover{
+
+    /* filter: grayscale(); */
+    transform: scale(1.3);
+}
 h2.titulo2 {
 
     text-align: center;
