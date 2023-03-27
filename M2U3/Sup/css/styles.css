@@ -100,3 +100,43 @@ div.portada2 {
 
 
 }
+
+.contacto h5 {
+
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.contacto ul{
+    text-align: left;
+}
+
+.contacto li{
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.formulario-contacto{
+    text-align: left;
+}
+
+.boton-submit{
+    text-align: right;
+   
+}
+.contacto{
+
+    margin-top: 30px;
+}
+
+.fila-breadcrumb{
+
+    margin: 15px 0;
+}
+.breadcrumb-actual{
+    font-weight: bold;
+}
